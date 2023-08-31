@@ -25,12 +25,32 @@
 </ul>
 
 <h2>Instalación</h2>
+
+<h3>Instalar composer</h3>
 <pre>
 <code>
-```javascript
-const example = "Hola, mundo!";
-console.log(example);
-```
+    composer i
 </code>
 </pre>
 
+<h3>Crear la Base de datos</h3>
+<pre>
+<code>
+    CREATE SCHEMA IF NOT EXISTS `imperiale_eric_db`
+</code>
+</pre>
+
+<h3>Correr las migraciones junto a los seeders</h3>
+<pre>
+<code>
+    php artisan migrate:fresh --seeder
+    php artisan db:seed
+</code>
+</pre>
+
+<h3>Iniciar el servidor</h3>
+<pre>
+<code>
+    php artisan serve
+</code>
+</pre>
