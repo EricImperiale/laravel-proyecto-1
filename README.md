@@ -1,7 +1,7 @@
 <h1>Mini Proyecto de Reserva de Películas en Laravel</h1>
 <p>Este proyecto es una aplicación web desarrollada en Laravel 9 que te permite explorar, reservar y administrar películas.</p>
 
-<h2>Propósito</h2>
+<h2>Propósito</h2> 
 <p>En este momento, <b>me encuentro explorando Laravel Livewire</b>. <b>Mi plan es crear un componente que incluya tanto el filtro de búsqueda como la tabla de películas</b>.</p>
 
 <h2>Características Principales</h2>
