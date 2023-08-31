@@ -23,3 +23,14 @@
       <li>Bootstrap</li>
     </ul>
 </ul>
+
+<h2>Instalación</h2>
+<pre>
+<code>
+```javascript
+const example = "Hola, mundo!";
+console.log(example);
+```
+</code>
+</pre>
+
