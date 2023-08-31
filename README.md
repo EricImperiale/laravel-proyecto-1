@@ -25,32 +25,32 @@
 </ul>
 
 <h2>Instalación</h2>
-
-<h3>Instalar composer</h3>
+<h3>Instala Composer</h3>
 <pre>
 <code>
     composer i
 </code>
 </pre>
 
-<h3>Crear la Base de datos</h3>
+<h3>Crea la Base de Datos</h3>
 <pre>
 <code>
-    CREATE SCHEMA IF NOT EXISTS `imperiale_eric_db`
+    CREATE SCHEMA IF NOT EXISTS `imperiale_eric_db`;
 </code>
 </pre>
 
-<h3>Correr las migraciones junto a los seeders</h3>
+<h3>Corre las Migraciones junto a los Seeders</h3>
 <pre>
 <code>
-    php artisan migrate:fresh --seeder
+    php artisan migrate:fresh --seed
     php artisan db:seed
 </code>
 </pre>
 
-<h3>Iniciar el servidor</h3>
+<h3>Inicia el Servidor</h3>
 <pre>
 <code>
     php artisan serve
 </code>
 </pre>
+
