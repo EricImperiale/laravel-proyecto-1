@@ -11,10 +11,10 @@
       <li>Uso de Soft Deletes para manejar eliminaciones sin pérdida de datos</li>
       <li>Utilización de Mutadores para formatear fechas y precios en formato local</li>
       <li>Implementación de Validaciones tanto en operaciones CRUD como en autenticación de usuarios</li>
-      <li>Filtro por título y sistema de paginación en el catálogo de películas</li>
       <li>Integración de la API de Checkout PRO de MercadoPago</li>
       <li>Integración de PHP Mailer para notificaciones por correo</li>
       <li>Utilización de componentes, Repositorios, Interfaces y Middlewares para una estructura modular</li>
+      <li>Filtro por título y sistema de paginación en el catálogo de películas</li>
       <li>Estado de conexión para los componentes</li>
     </ul>
 </ul>
@@ -30,6 +30,7 @@
 </ul>
 
 <h2>Filtro para las películas</h2>
+<p>El filtro se aplica cuando el usuario deja de tipear. De esta manera, enviamos una sola solicitud al servidor.</p>
 https://drive.google.com/file/d/1DDRJaTjNtv1Z1D8lItnk66WCdBBDnZjv/view?usp=drive_link
 
 <h2>Estado de conexión</h2>
