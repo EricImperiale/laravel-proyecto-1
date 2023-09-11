@@ -30,9 +30,11 @@
 </ul>
 
 <h2>Filtro para las películas</h2>
+https://drive.google.com/file/d/1DDRJaTjNtv1Z1D8lItnk66WCdBBDnZjv/view?usp=drive_link
 
 <h2>Estado de conexión</h2>
-![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/7e699b0d-7a4b-4062-84c7-f308ceeeee78)
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/dd3a197e-039a-4391-9682-4aa069d1609b)
+
 
 <h2>Instalación</h2>
 <h3>Instala Composer</h3>
