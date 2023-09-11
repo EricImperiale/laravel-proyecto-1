@@ -1,4 +1,4 @@
-<h1>Mini Proyecto de Reserva de Películas en Laravel 9</h1>
+<h1>Mini Proyecto de Reserva de Películas en Laravel 9 y Livewire</h1>
 <p>Este proyecto es una aplicación web desarrollada en Laravel 9 que te permite explorar, reservar y administrar películas.</p>
 
 <h2>Propósito</h2> 
@@ -23,6 +23,7 @@
     <ul>
       <li>HTML5/CSS</li>
       <li>Laravel 9</li>
+      <li>Laravel Livewire</li>
       <li>Bootstrap</li>
     </ul>
 </ul>
