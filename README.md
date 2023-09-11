@@ -33,7 +33,7 @@
 
 <h2>Estado de conexión</h2>
 <div>
-    ![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/ad299aab-5d44-4ed0-992f-762feddd1d5e)
+   ![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/7c9be98b-fdd1-4e03-89a9-799a99abe524)
 </div>
 
 <h2>Instalación</h2>
