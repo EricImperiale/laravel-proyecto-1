@@ -31,7 +31,11 @@
 
 <h2>Filtro para las películas</h2>
 <p>El filtro se aplica cuando el usuario deja de tipear. De esta manera, enviamos una sola solicitud al servidor.</p>
-https://drive.google.com/file/d/1DDRJaTjNtv1Z1D8lItnk66WCdBBDnZjv/view?usp=drive_link
+
+
+
+https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/c14907f7-9c03-4614-bc61-13c60be4c86e
+
 
 <h2>Estado de conexión</h2>
 ![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/dd3a197e-039a-4391-9682-4aa069d1609b)
