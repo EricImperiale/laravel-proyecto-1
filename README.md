@@ -1,66 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1>Mini Proyecto de Reserva de Películas en Laravel 9 y Livewire</h1>
+<p>Este proyecto es una aplicación web desarrollada en Laravel 9 que te permite explorar, reservar y administrar películas.</p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h2>Propósito</h2> 
+<p>En este momento, <b>me encuentro explorando Laravel Livewire</b>. <b>Mi plan es crear un componente que incluya tanto el filtro de búsqueda como la tabla de películas</b>.</p>
 
-## About Laravel
+<h2>Características Principales</h2>
+<ul>
+    <ul>
+      <li>Autenticación de administradores para gestionar el CRUD de Películas</li>
+      <li>Uso de Soft Deletes para manejar eliminaciones sin pérdida de datos</li>
+      <li>Utilización de Mutadores para formatear fechas y precios en formato local</li>
+      <li>Implementación de Validaciones tanto en operaciones CRUD como en autenticación de usuarios</li>
+      <li>Integración de la API de Checkout PRO de MercadoPago</li>
+      <li>Integración de PHP Mailer para notificaciones por correo</li>
+      <li>Utilización de componentes, Repositorios, Interfaces y Middlewares para una estructura modular</li>
+      <li>Filtro por título y sistema de paginación en el catálogo de películas</li>
+      <li>Estado de conexión para los componentes</li>
+    </ul>
+</ul>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Tecnologías</h2>
+<ul>
+    <ul>
+      <li>HTML5/CSS</li>
+      <li>Laravel 9</li>
+      <li>Laravel Livewire</li>
+      <li>Bootstrap</li>
+    </ul>
+</ul>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Filtro para las películas</h2>
+<p>El filtro se aplica cuando el usuario deja de tipear, de esta manera evitamos enviar múltiples peticiones al servidor, y además, guardamos el parámetro en la query string.</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/c14907f7-9c03-4614-bc61-13c60be4c86e
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h2>Estado de conexión</h2>
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/54926acc-a2bd-4bb5-9ca5-727aa11f9f6a)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h2>Instalación</h2>
+<h3>Instala Composer</h3>
+<pre>
+<code>
+    composer i
+</code>
+</pre>
 
-### Premium Partners
+<h3>Crea la Base de Datos</h3>
+<pre>
+<code>
+    CREATE SCHEMA IF NOT EXISTS `imperiale_eric_db`;
+</code>
+</pre>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<h3>Corre las Migraciones junto a los Seeders</h3>
+<pre>
+<code>
+    php artisan migrate:fresh --seed
+    php artisan db:seed
+</code>
+</pre>
 
-## Contributing
+<h3>Inicia el Servidor</h3>
+<pre>
+<code>
+    php artisan serve
+</code>
+</pre>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
