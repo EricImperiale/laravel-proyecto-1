@@ -32,9 +32,7 @@
 <h2>Filtro para las películas</h2>
 
 <h2>Estado de conexión</h2>
-<div>
-   ![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/7c9be98b-fdd1-4e03-89a9-799a99abe524)
-</div>
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/7e699b0d-7a4b-4062-84c7-f308ceeeee78)
 
 <h2>Instalación</h2>
 <h3>Instala Composer</h3>
