@@ -1,4 +1,4 @@
-<h1>Mini Proyecto de Reserva de Películas en Laravel 9 y Livewire</h1>
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/ad299aab-5d44-4ed0-992f-762feddd1d5e)<h1>Mini Proyecto de Reserva de Películas en Laravel 9 y Livewire</h1>
 <p>Este proyecto es una aplicación web desarrollada en Laravel 9 que te permite explorar, reservar y administrar películas.</p>
 
 <h2>Propósito</h2> 
@@ -32,8 +32,7 @@
 <h2>Filtro para las películas</h2>
 
 <h2>Estado de conexión</h2>
-![Vista previa del proyecto](https://drive.google.com/file/d/1tpClMEyXKX7km-iUIjDTV3nao7vht6Uf/view?usp=drive_link)
-
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/fcda2189-a3f6-4739-8897-406b19626769)
 
 <h2>Instalación</h2>
 <h3>Instala Composer</h3>
