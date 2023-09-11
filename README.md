@@ -30,7 +30,7 @@
 </ul>
 
 <h2>Filtro para las películas</h2>
-<p>El filtro se aplica cuando el usuario deja de tipear. De esta manera, enviamos una sola solicitud al servidor.</p>
+<p>El filtro se aplica cuando el usuario deja de tipear, de esta manera evitamos enviar múltiples peticiones al servidor, y además, guardamos el parámetro en la query string.</p>
 
 
 
@@ -38,7 +38,7 @@ https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/c14907f7-9c0
 
 
 <h2>Estado de conexión</h2>
-![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/dd3a197e-039a-4391-9682-4aa069d1609b)
+![screenshot_proyecto_peliculas_laravel](https://github.com/EricImperiale/laravel-proyecto-1/assets/47151740/54926acc-a2bd-4bb5-9ca5-727aa11f9f6a)
 
 
 <h2>Instalación</h2>
