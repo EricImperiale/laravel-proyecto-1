@@ -15,6 +15,7 @@
       <li>Integración de la API de Checkout PRO de MercadoPago</li>
       <li>Integración de PHP Mailer para notificaciones por correo</li>
       <li>Utilización de componentes, Repositorios, Interfaces y Middlewares para una estructura modular</li>
+      <li>Estado de conexión para los componentes</li>
     </ul>
 </ul>
 
@@ -27,6 +28,12 @@
       <li>Bootstrap</li>
     </ul>
 </ul>
+
+<h2>Filtro para las películas</h2>
+
+<h2>Estado de conexión</h2>
+![Vista previa del proyecto](https://drive.google.com/file/d/1tpClMEyXKX7km-iUIjDTV3nao7vht6Uf/view?usp=drive_link)
+
 
 <h2>Instalación</h2>
 <h3>Instala Composer</h3>
